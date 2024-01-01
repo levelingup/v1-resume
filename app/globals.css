@@ -87,3 +87,7 @@ h1 {
 h2 {
 	@apply text-xl;
 }
+
+a:hover {
+	@apply underline;
+}

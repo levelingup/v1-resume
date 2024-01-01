@@ -1,8 +1,11 @@
+import { Github, Linkedin } from "lucide-react";
+
 export const RESUME_DATA = {
 	name: "Andrew Liu",
-	title: "Your Title",
-	about: "Your About",
-	description: "Your Description",
+	description:
+		"Front-End Engineer who started out in Civil Engineering at UCLA, dove into coding, and have since mixed my knack for tech with a solid business sense to create products that are useful and consumer-friendly.",
+	about:
+		"As a Front-End Engineer, I specialize in creating intuitive, user-centric web solutions, constantly exploring innovative ways to enhance user experience and streamline processes. My approach combines technical proficiency with a strategic business perspective, ensuring that the products I develop are not only technologically advanced but also commercially viable. I like to leverage emerging technologies to solve complex challenges and contribute to the evolution of the digital landscape.",
 	contact: {
 		email: "",
 		phone: "",
@@ -10,23 +13,13 @@ export const RESUME_DATA = {
 		social: [
 			{
 				name: "GitHub",
-				link: "Social Link",
-				icon: "Social Icon",
+				link: "https://www.github.com/levelingup",
+				icon: Github,
 			},
 			{
 				name: "LinkedIn",
-				link: "Social Link",
-				icon: "Social Icon",
-			},
-			{
-				name: "Instagram",
-				link: "Social Link",
-				icon: "Social Icon",
-			},
-			{
-				name: "Twitter",
-				link: "Social Link",
-				icon: "Social Icon",
+				link: "https://www.linkedin.com/in/ahliu1/",
+				icon: Linkedin,
 			},
 		],
 	},
@@ -37,7 +30,8 @@ export const RESUME_DATA = {
 			title: "Front End Engineer & Product Manager",
 			start: "2017",
 			end: null,
-			description: "Description",
+			description:
+				"Front-End Engineer with a focus on A/B testing and product management, proficient in HTML, JavaScript, and CSS. Expertise in developing user-centric e-commerce interfaces, optimizing user experience, and contributing to product strategy and development.",
 		},
 		{
 			company: "Creative Space",
@@ -45,7 +39,8 @@ export const RESUME_DATA = {
 			title: "Director of Operations",
 			start: "2014",
 			end: "2016",
-			description: "Description",
+			description:
+				"Led operational strategy and process optimization, spearheaded team development and management, and managed budgets, contributing to significant growth and efficiency in a dynamic startup setting.",
 		},
 		{
 			company: "Brandow & Johnston",
@@ -53,7 +48,8 @@ export const RESUME_DATA = {
 			title: "Design Engineer",
 			start: "2011",
 			end: "2014",
-			description: "Description",
+			description:
+				"Specialized in innovative design solutions and project management, delivering high-quality infrastructure projects by leveraging strong technical skills in civil engineering within a collaborative engineering firm environment.",
 		},
 	],
 	education: [
@@ -61,22 +57,48 @@ export const RESUME_DATA = {
 			name: "UCLA",
 			degree: "Bachelor of Science",
 			field: "Civil Engineering",
-			start: "2008",
 			end: "2010",
 			description: "Bachelor's of Science in Civil Engineering",
 		},
 	],
 	skills: [
 		{
-			name: "Skill Name",
-			level: 100,
+			name: "JavaScript",
+		},
+		{
+			name: "TypeScript",
+		},
+		{
+			name: "React",
+		},
+		{
+			name: "Next.js",
 		},
 	],
 	projects: [
 		{
-			name: "Project Name",
-			description: "Description",
-			link: "Link",
+			name: "Wedding Website",
+			description: "My personal wedding website",
+			url: "https://devotedtoliu.vercel.app/",
+			skills: [
+				{
+					name: "React",
+				},
+				{
+					name: "Next.js",
+				},
+			],
+		},
+		{
+			name: "Jira & AB Testing Chrome Extension",
+			description:
+				"Chrome extension built to improve Jira & AB Testing workflow",
+			url: "https://chromewebstore.google.com/detail/mgflnmcobkaocfajidpbfmfekendkkoo?hl=en",
+			skills: [
+				{
+					name: "React",
+				},
+			],
 		},
 	],
 };
