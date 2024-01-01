@@ -89,7 +89,7 @@ export default function Home() {
       <section>
         {/* Projects */}
         <h2>Projects</h2>
-        <div className="md:grid md:grid-cols-2 gap-4">
+        <div className="grid gap-3 md:grid-cols-2 md:gap-4">
           {RESUME_DATA.projects.map((val, i) => {
             return (
               <ProjectCard
