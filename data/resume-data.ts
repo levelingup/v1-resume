@@ -78,12 +78,29 @@ export const RESUME_DATA = {
 	projects: [
 		{
 			name: "Wedding Website",
-			description: "My personal wedding website",
+			description: "My personal wedding website that was used for RSVPs.",
 			url: "https://devotedtoliu.vercel.app/",
+			skills: [
+				{
+					name: "Next.js",
+				},
+			],
+		},
+		{
+			name: "Nike Landing Page",
+			description: "A Nike landing page.",
+			url: "https://nike-landing-sable.vercel.app/",
 			skills: [
 				{
 					name: "React",
 				},
+			],
+		},
+		{
+			name: "Just the URL",
+			description: "A tool to help manipulate URLs for SEO purposes.",
+			url: "https://levelingup.github.io/just-the-url/",
+			skills: [
 				{
 					name: "Next.js",
 				},
@@ -97,6 +114,22 @@ export const RESUME_DATA = {
 			skills: [
 				{
 					name: "React",
+				},
+			],
+		},
+		{
+			name: "Random Quote Generator",
+			description: "Random quote generator",
+			url: "https://levelingup.github.io/quote-generator/",
+			skills: [
+				{
+					name: "HTML",
+				},
+				{
+					name: "JavaScript",
+				},
+				{
+					name: "CSS",
 				},
 			],
 		},
