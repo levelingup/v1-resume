@@ -109,7 +109,7 @@ export const RESUME_DATA = {
 		{
 			name: "Jira & AB Testing Chrome Extension",
 			description:
-				"Chrome extension built to improve Jira & AB Testing workflow",
+				"Chrome extension built to improve Jira & AB Testing workflow.",
 			url: "https://chromewebstore.google.com/detail/mgflnmcobkaocfajidpbfmfekendkkoo?hl=en",
 			skills: [
 				{
@@ -119,7 +119,7 @@ export const RESUME_DATA = {
 		},
 		{
 			name: "Random Quote Generator",
-			description: "Random quote generator",
+			description: "Random quote generator.",
 			url: "https://levelingup.github.io/quote-generator/",
 			skills: [
 				{
