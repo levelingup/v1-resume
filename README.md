@@ -1,8 +1,6 @@
-Andrew Liu Resume v1
+## Andrew Liu Resume v1
 
-## Getting Started
-
-![Andrew Resume](./Andrew-Liu-Frontend-Engineer.png)
+![Andrew Resume](./public/Andrew-Liu-Frontend-Engineer.png)
 
 Built with:
 
