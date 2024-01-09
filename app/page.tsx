@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import ProjectCard from "@/components/ProjectCard";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Mail } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -13,9 +14,18 @@ export default function Home() {
         {/* Intro */}
         <div className="flex items-center gap-x-6">
           <div>
-            <h1>{RESUME_DATA.name}</h1>
+            <h1 className="text-2xl">{RESUME_DATA.name}</h1>
             <div className="font-mono text-sm text-muted-foreground">{RESUME_DATA.description}</div>
             <div className="mt-2 flex gap-2">
+              <Button
+                variant="outline"
+                size="icon"
+                className="text-muted-foreground"
+              >
+                <Link href={`mailto:${RESUME_DATA.contact.email}`}>
+                  <Mail className="w-5 h-5" />
+                </Link>
+              </Button>
               {RESUME_DATA.contact.social.map((val, i) => {
                 return (
                   <Button

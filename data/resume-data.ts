@@ -7,7 +7,7 @@ export const RESUME_DATA = {
 	about:
 		"As a Front-End Engineer, I specialize in creating intuitive, user-centric web solutions, constantly exploring innovative ways to enhance user experience and streamline processes. My approach combines technical proficiency with a strategic business perspective, ensuring that the products I develop are not only technologically advanced but also commercially viable. I like to leverage emerging technologies to solve complex challenges and contribute to the evolution of the digital landscape.",
 	contact: {
-		email: "",
+		email: "hello@andrewliu.us",
 		phone: "",
 		website: "",
 		social: [
