@@ -5,7 +5,7 @@ export const RESUME_DATA = {
 	description:
 		"Front-End Engineer who started out in Civil Engineering at UCLA, dove into coding, and have since mixed my knack for tech with a solid business sense to create products that are useful and consumer-friendly.",
 	about:
-		"As a Front-End Engineer, I specialize in creating intuitive, user-centric web solutions, constantly exploring innovative ways to enhance user experience and streamline processes. My approach combines technical proficiency with a strategic business perspective, ensuring that the products I develop are not only technologically advanced but also commercially viable. I like to leverage emerging technologies to solve complex challenges and contribute to the evolution of the digital landscape.",
+		"Senior front-end engineer, specializing in creating intuitive, user-centric web solutions, constantly exploring innovative ways to enhance user experience and streamline processes. My approach combines technical proficiency with a strategic business perspective, ensuring that the products I develop are not only technologically advanced but also commercially viable. I like to leverage emerging technologies to solve complex challenges and contribute to the evolution of the digital landscape.",
 	contact: {
 		email: "hello@andrewliu.us",
 		phone: "",
@@ -27,11 +27,11 @@ export const RESUME_DATA = {
 		{
 			company: "Revolve",
 			url: "https://www.revolve.com/",
-			title: "Front End Engineer & Product Manager",
+			title: "Senior Front End Engineer & Product Manager",
 			start: "2017",
 			end: null,
 			description:
-				"Front-End Engineer with a focus on A/B testing and product management, proficient in HTML, JavaScript, and CSS. Expertise in developing user-centric e-commerce interfaces, optimizing user experience, and contributing to product strategy and development.",
+				"Senior Front-End Engineer with a focus on A/B testing and product management, proficient in HTML, JavaScript, and CSS. Expertise in developing user-centric e-commerce interfaces, optimizing user experience, and contributing to product strategy and development.",
 		},
 		{
 			company: "Creative Space",
