@@ -72,10 +72,30 @@ export const RESUME_DATA = {
 			name: "React",
 		},
 		{
+			name: "React Native",
+		},
+		{
 			name: "Next.js",
+		},
+		{
+			name: "Supabase",
 		},
 	],
 	projects: [
+		{
+			name: "Shonan Beauty",
+			description:
+				"Freelanced as a web developer to redesign the Shonan Beauty website.",
+			url: "https://shonanbeauty.com",
+			skills: [
+				{
+					name: "Wordpress",
+				},
+				{
+					name: "PHP",
+				},
+			],
+		},
 		{
 			name: "Wedding Website",
 			description: "My personal wedding website that was used for RSVPs.",
