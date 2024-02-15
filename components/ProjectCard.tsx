@@ -20,7 +20,7 @@ const ProjectCard = ({ url, title, description, skills }: ProjectCardProps) => {
             <CardHeader className='pb-2'>
                 <CardTitle className='text-base font-mono'>
                     {url ? (
-                        <Link href={url}>{title}</Link>
+                        <Link href={url} target='_blank'>{title}</Link>
                     ) : (
                         title
                     )}
