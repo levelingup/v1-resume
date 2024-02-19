@@ -80,6 +80,15 @@ export const RESUME_DATA = {
 		{
 			name: "Supabase",
 		},
+		{
+			name: "CockroachDB",
+		},
+		{
+			name: "Power Sync",
+		},
+		{
+			name: "AWS",
+		},
 	],
 	projects: [
 		{
@@ -108,11 +117,15 @@ export const RESUME_DATA = {
 		},
 		{
 			name: "Nike Landing Page",
-			description: "A Nike landing page.",
+			description:
+				"A simple responsive landing page to practice TailwindCSS and React",
 			url: "https://nike-landing-sable.vercel.app/",
 			skills: [
 				{
 					name: "React",
+				},
+				{
+					name: "TailwindCSS",
 				},
 			],
 		},
@@ -139,7 +152,8 @@ export const RESUME_DATA = {
 		},
 		{
 			name: "Random Quote Generator",
-			description: "Random quote generator.",
+			description:
+				"I built a random quote generator to help practice JavaScript and API calls.",
 			url: "https://levelingup.github.io/quote-generator/",
 			skills: [
 				{

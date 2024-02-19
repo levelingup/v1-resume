@@ -16,27 +16,29 @@ interface SkillProp {
 
 const ProjectCard = ({ url, title, description, skills }: ProjectCardProps) => {
     return (
-        <Card>
-            <CardHeader className='pb-2'>
-                <CardTitle className='text-base font-mono'>
-                    {url ? (
-                        <Link href={url} target='_blank'>{title}</Link>
-                    ) : (
-                        title
-                    )}
-                </CardTitle>
-            </CardHeader>
-            <CardContent className='pb-2'>
-                <div className='text-sm font-mono text-muted-foreground'>{description}</div>
-            </CardContent>
-            <CardFooter>
-                <div className='flex gap-2'>
-                    {skills.map((skill, i) => (
-                        <Badge key={i} variant={'secondary'}>{skill.name}</Badge>
-                    ))}
-                </div>
-            </CardFooter>
-        </Card>
+        <>
+            {url && (
+                <Card className='hover:bg-slate-50 hover:shadow-md'>
+                    <Link href={url} target='_blank' className='hover:no-underline'>
+                        <CardHeader className='pb-2'>
+                            <CardTitle className='text-base font-mono'>
+                                {title}
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent className='pb-2'>
+                            <div className='text-sm font-mono text-muted-foreground'>{description}</div>
+                        </CardContent>
+                        <CardFooter>
+                            <div className='flex gap-2'>
+                                {skills.map((skill, i) => (
+                                    <Badge key={i} variant={'secondary'}>{skill.name}</Badge>
+                                ))}
+                            </div>
+                        </CardFooter>
+                    </Link >
+                </Card>
+            )}
+        </>
     )
 }
 

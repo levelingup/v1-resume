@@ -88,7 +88,7 @@ export default function Home() {
       <section>
         {/* Skills */}
         <h2>Skills</h2>
-        <div className="flex gap-x-2">
+        <div className="flex gap-2 flex-wrap">
           {RESUME_DATA.skills.map((val, i) => {
             return (
               <Badge key={i}>{val.name}</Badge>
