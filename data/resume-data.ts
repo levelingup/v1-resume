@@ -106,6 +106,20 @@ export const RESUME_DATA = {
 			],
 		},
 		{
+			name: "Repost IG Videos and Photos",
+			description:
+				"iOS app to download videos and photos from IG and repost them.",
+			url: "https://apps.apple.com/us/app/repost-ig-videos-and-photos/id1495757529",
+			skills: [
+				{
+					name: "React Native",
+				},
+				{
+					name: "Expo",
+				},
+			],
+		},
+		{
 			name: "Wedding Website",
 			description: "My personal wedding website that was used for RSVPs.",
 			url: "https://devotedtoliu.vercel.app/",
